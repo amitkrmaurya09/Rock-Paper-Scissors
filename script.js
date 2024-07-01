@@ -62,15 +62,22 @@ function getRandomComputerResult() {
     }
   
   };
+  function resetScore(){
+    computerScoreSpanElement.innerText = computerScore;
+    playerScoreSpanElement.innerText = playerScore;
+  }
+
   function resetGame() {
   playerScore = 0;
   computerScore = 0;
-  
+  playerImg.src = `./images/loading.gif`
+  computerImg.src = `./images/loading.gif`
   resetGameBtn.style.display = "none";
   optionsContainer.style.display = "block";
   winnerMsgElement.innerText = "";
   roundResultsMsg.innerText = "";
   audio.play();
+  resetScore();
   };
   
   resetGameBtn.addEventListener("click", resetGame);
