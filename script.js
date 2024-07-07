@@ -7,6 +7,11 @@ const resetGameBtn = document.getElementById("reset-game-btn");
 const playerImg = document.getElementById("player-img");
 const computerImg = document.getElementById("computer-img");
 
+const rockImg = `./images/Rock.jpg`
+const paperImg = `./images/Paper.jpg`
+const stoneImg = `./images/Scissors.jpg`
+
+
 function getRandomComputerResult() {
     const options = ["Rock", "Paper", "Scissors"];
     const randomIndex = Math.floor(Math.random() * options.length);
