@@ -65,7 +65,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or feedback, please feel free to reach out:
 
 - **Name:** Amit kumar
-- **Email:** amitkrmaurya09@gmail.com
 - **GitHub:** [amitkrmaurya09](https://github.com/amitkrmaurya09)
 
 ---
